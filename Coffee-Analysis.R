@@ -177,10 +177,13 @@ prop.table(prob.mtx.inc)
 
 names(coffee)
 
-cor(coffee$No_of_Packet , coffee$Price_Conscious)
+cor(coffee$Income , coffee$Price_Conscious)
 cor(coffee$No_of_Packet , coffee$Education)
 cor(coffee$No_of_Packet , coffee$Household_Sz)
+cor(coffee$No_of_Packet , coffee$Income)
 
 cor(coffee$No_of_Packet , coffee$Price_per_Packet)
 
-cor(coffee$Age , coffee$Loyalty)
+cor(coffee$Age , coffee$No_of_Packet)
+
+names(coffee)

@@ -1,3 +1,4 @@
+Sys.setenv(http_proxy =  "www-proxy.us.oracle.com:80" , https_proxy =  "www-proxy.us.oracle.com:80")
 library(rpivotTable)
 library(lattice)
 names(CardioGoodFitness)
