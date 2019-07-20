@@ -52,3 +52,19 @@ pnorm(0.34, 0.295, 0.025)
 pnorm(0.26, 0.295, 0.025)
 
 
+pnorm(44,40,3)
+
+pnorm(44,40,3, lower.tail = FALSE)
+
+
+pnorm(32,30,2)
+pnorm(1)
+
+# pnorm(44,40,3) + pnorm(44,40,3, lower.tail = FALSE)
+
+qnorm(0.9, 40,3)
+
+# qnorm to compute  x value when probablity is given
+
+
+
