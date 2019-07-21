@@ -67,4 +67,19 @@ qnorm(0.9, 40,3)
 # qnorm to compute  x value when probablity is given
 
 
+qnorm(0.025)
+qnorm(0.025, lower.tail = FALSE)
+qnorm(0.975)
+
+qnorm(0.95)
+qnorm(0.05)
+
+
+qnorm(0.005)
+qnorm(0.005 , lower.tail = FALSE)
+qnorm(0.995 )
+
+qnorm(0.01)
+
+qnorm(0.99)
 
