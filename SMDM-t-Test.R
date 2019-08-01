@@ -8,6 +8,7 @@ names(internetmobiletime)
 
 n = length(Minutes) 
 xBar =  mean(Minutes)
+xBar
 
 tStat = ( xBar - Mu ) / (stDev / sqrt(n))
 tStat

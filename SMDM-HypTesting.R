@@ -17,8 +17,8 @@ pnorm(2.5, lower.tail = FALSE)
 
 # Critical value
 
-qnorm(0.95,29000,8000)
-qnorm( 0.9937903,29000,8000 )
+qnorm(0.95,29000,400)
+qnorm( 0.9937903,29000,400 )
 
 
 # 3  Mean = 500 , SD 3
