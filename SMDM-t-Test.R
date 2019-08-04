@@ -18,7 +18,7 @@ pvalue
 
 # Area is 23 % which is greater than the reject zone area i.e 5% 
 #do not reject Null Hypothesis
-# p-low Null go
+# p-low Null let  go
 
 t.test(Minutes ,Mu = 144)
 

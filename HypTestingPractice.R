@@ -67,3 +67,4 @@ xcriticalSB <- qnorm(pcriticalSB , MuSB , SESB)
 xcriticalSB
 
 #For the sample  xvaueSB (248.5) < xcriticalSB (248.68) .So reject Null Hypothesis
+
