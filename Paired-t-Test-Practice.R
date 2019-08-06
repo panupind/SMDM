@@ -31,5 +31,19 @@ n = 134
 # H0 : Mu = 1
 # H1 : Mu <> 1
 
+#pt((q - mu)/SE, df=n-1) 
+
+pt((2.0857 - 2.09)/0.050709, df= 34) 
+
+
+pnorm(-2.46)
+
+pnorm(1.46, lower.tail = FALSE)
+
+
+pnorm(-2.96) + pnorm(0.96 ,lower.tail =  FALSE)
+
+1-(pnorm(0.96)-pnorm(-2.96))
+
 
 
